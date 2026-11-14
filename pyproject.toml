@@ -1,0 +1,28 @@
+[project]
+name = "australian-farm-scraper"
+version = "1.0.0"
+description = "Automated market intelligence and web scraper for Australian agribusiness and farming enterprise data from Dun & Bradstreet (D&B)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Talha Zunair" }
+]
+keywords = [
+    "web-scraping",
+    "market-intelligence",
+    "dun-and-bradstreet",
+    "australian-farms",
+    "agribusiness",
+    "selenium",
+    "requests",
+    "rich-cli",
+    "b2b-lead-generation"
+]
+dependencies = [
+    "chromedriver-autoinstaller>=0.6.4",
+    "fake-useragent>=2.2.0",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+    "selenium>=4.38.0",
+]
